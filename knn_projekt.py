@@ -3,9 +3,15 @@
 Created on Thu Jun  9 09:38:53 2022
 
 @author: Szymon Feliński
+
+ENG
+Examples below show that kNN returns 100% accuracy when testing on training data and k=1.
+
+POL
+Na ponizszych zestawach danych zostalo pokazane, ze przy k=1 kNN zawsze daje 100% trafnosci przy testowaniu na danych uczacych.
+
 """
 
-import numpy as np
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier # classifier library
 from sklearn.metrics import accuracy_score # result scoring library
