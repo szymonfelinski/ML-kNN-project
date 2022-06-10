@@ -193,3 +193,4 @@ def select_dataset(selected_dataset):
 # 3 - audiology
 for i in range(4):
     select_dataset(i)
+del i
